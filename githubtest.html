@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git hub test</title>
+    <style>
+        h2{
+            background-color:gold;
+            color:#fff;
+            text-align:center;
+            font-size:50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>깃허브 테스트 페이지입니다.</h2>
+    <!--git branch (브랜치 조회)
+        git branch 브랜치명 (브랜치 생성)
+        git checkout 브랜치명 (브랜치 focus, 브랜치 이동)
+        git branch -d: 브랜치명 (브랜치 삭제)
+         ex)
+         git branch dev (dev브랜치 생성)
+         git checkout dev (dev 브랜치 이동)
+         git push (dev 브랜치에 현재 코드 복사)
+
+         ex)
+         git branch feature (새로운 브랜치 생성)
+         git add . / commit (스테이징 커밋)
+         git checkout dev (본줄기 브랜치로 이동)
+         git merge feature (merge 진행)
+
+         git pull (원본과 동기화)
+         git push (본줄기 브랜치에 수정 사항 적용)
+         git branch -d feature (브랜치 삭제)
+        
+         상황 발생
+         hotfix 브랜치 생성-> 버그 수정 -> dev merge
+         dev- test, 이상 없으면 master에 pull request
+         hotfix 브랜치 삭제
+
+         git hub에서 pull request를 통해 main/master(default) merge요청
+
+         fork: 중앙 관리소에 있는 데이터를 내 개인 저장소로 가지고 오는 것
+         단점 flow가 어렵고 통일 관리가 어렵다
+
+         pull 대신 fetch를 통해 원본 remote와 내 래퍼지토리의 fork된 코드를 비교하여 최신 상태 코드를 유지
+
+         git clone "레포지터리 주소": 현재 협업 중인 레퍼지토리의 코드를 복사하여 내 로컬 환경에 저장
+
+         github pages(settings에서 찾음): git hub의 무료 호스팅 기능, 정적인 사이트를 배포 (다른 사람이 접할 수 있도록)
+         충돌해결: remote, branch가 많아지면서 git pull/push <remote> <branch>
+         해당 부분의 충돌을 해결한 후 push 혹은 merge
+    -->
+</body>
+</html>
